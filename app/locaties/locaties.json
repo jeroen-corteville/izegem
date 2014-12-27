@@ -1,0 +1,74 @@
+﻿[ 
+        {
+                "locatie": "Blauwhuis",
+                "id": "blauwhuis",
+                "bestandslocatie": "img/gallery/I0107.jpg",
+                "descriptie": "Kasteel Het Blauwhuis in Izegem is een parel van een neoclassicistisch kasteel uit 1880. In dit statige kader waar vroeger baronnen en baronessen hun gasten ontvingen, worden nu huwelijken en jubilea gevierd."
+            },
+            {
+                "locatie": "Wallemote",
+                "id": "wallemote",
+                "bestandslocatie": "img/gallery/I0612.jpg",
+                "descriptie": "Het nu leegstaande Kasteel is een van de twee kastelen in het park van Wallemote-Wolvenhof. Het wordt nu gebruikt voor de sport- en cultuurmanifestaties."
+            },   
+            {
+                "locatie": "Station",
+                "id": "station",
+                "bestandslocatie": "img/gallery/I0709.jpg",
+                "descriptie": "Het station van Izegem zoals je het hier ziet stamt uit 1847. Dit gebouw is ondertussen niet meer. Tegenwoordig is het vervangen door een gebouw dat stamt uit het interbellum, gebouwd in 1931."
+            },       
+            {
+                "locatie": "Korenmarkt",
+                "id":"korenmarkt",
+                "bestandslocatie": "img/gallery/I1011.jpg",
+                "descriptie": "De Korenmarkt met het stambeeld is een goed voorbeeld van hoeveel de aanleg van de centrumbrug het Izegems stadsbeeld heeft gewijzigd."
+            },
+            {
+                "locatie": "Brugstraat",
+                "id":"brugstraat",
+                "bestandslocatie": "img/gallery/I1712.jpg",
+                "descriptie": "De Brugstraat ziet er tegenwoordig heel anders uit, de brug die hier was is vervangen door de centrumbrug en de brug op deze foto werd afgesloten."
+            },
+            {
+                "locatie": "Wolvenhof",
+                "id":"wolvehof",
+                "bestandslocatie": "img/gallery/I0405.jpg",
+                "descriptie": "Het tweede kasteel van het park Wallemote - Wolvenhof. Vlak bij dit kasteel is er ook een grote vijver."
+            },
+            {
+                "locatie": "Grote Markt",
+                "id": "grotemarkt",
+                "bestandslocatie": "img/gallery/I1007.jpg",
+                "descriptie": "De Grote Markt van Izegem is het belangrijkste plein. Iedere zaterdag wordt hier markt gehouden, en de talrijke kroegen zorgen voor een bruisend uitgaansleven."
+            },
+            {
+                "locatie": "Burg. Vandenbogaerdelaan",
+                "id":"burg-vandenbogaerdelaan",
+                "bestandslocatie": "img/gallery/II0909.jpg",
+                "descriptie": "De Burgemeester Vandenbogaerdelaan is de verbinding tussen de Rijksweg en het stadscentrum."
+            },
+            {
+                "locatie": "Roeselaarsestraat",
+                "id":"roeselaarsestraat",
+                "bestandslocatie": "img/gallery/II1110.jpg",
+                "descriptie": "De Roeselaarsestraat is de belangrijkste straat van Izegem, die start aan de Marktstraat en eindigt aan de grens met Roeselare."
+            },
+            {
+                "locatie": "Sint-Jozefscollege",
+                "id": "sint-jozefscollege",
+                "bestandslocatie": "img/gallery/II1401.jpg",
+                "descriptie": "Het St-Jozefscollege is een middelbare school in Izegem, en biedt 2de en 3de graads ASO onderwijs aan."
+            },
+            {
+                "locatie": "Sint-Tillokerk",
+                "id": "sint-tillokerk",
+                "bestandslocatie": "img/gallery/II2203.jpg",
+                "descriptie": "De Sint-Tillokerk is de grootste en hoogste kerk van Izegem en omstreken. De kerktoren is met 83m de 18e op de lijst van hoogste kerktorens."
+            },
+            {
+                "locatie": "Heilig-Hartkerk",
+                "id": "heilig-hartkerk",
+                "bestandslocatie": "img/gallery/III1310.jpg",
+                "descriptie": "De Heilig-Hartkerk is de tweede kerk in het centrum van Izegem, en ligt bij het kruispunt van de Ommegangstraat en de Roeselaarsestraat"
+            }
+    ]
