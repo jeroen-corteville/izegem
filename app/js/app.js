@@ -5,7 +5,8 @@
 var izegemApp = angular.module('izegemApp', [
     'ngRoute',
 
-    'izegemControllers'
+    'izegemControllers',
+    'izegemServices'
 ]);
 
 izegemApp.config(['$routeProvider',
@@ -18,6 +19,10 @@ izegemApp.config(['$routeProvider',
         when('/gallery', {
             templateUrl: 'partials/gallery.html',
             controller: 'GalleryCtrl'
+        }).
+        when('/locaties/:locatieId', {
+            templateUrl: 'partials/galleryDetail.html',
+            controller: 'GalleryDetailCtrl'
         }).
         otherwise({
             redirectTo: '/home'

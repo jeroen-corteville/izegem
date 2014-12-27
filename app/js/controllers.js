@@ -13,38 +13,47 @@ izegemControllers.controller('IzegemAppCtrl', ['$scope', 'Phone',
 
 izegemControllers.controller('HomepageCtrl', ['$scope',
     function ($scope) {
-
-
-    }]);
-
-izegemControllers.controller('GalleryCtrl', ['$scope', '$http',
-    function ($scope, $http) {
-        $scope.pictures = [];
-
-        var onPhotosDownloaded = function (response) {
-            angular.forEach(response.data.Fotos.fotos, function (value, key) {
-                var newFoto = new Foto(value.locatie, value.bestandslocatie, value.descriptie);
-                $scope.pictures.push(newFoto);
-            });
-        }
-
-        var onError = function (response) {
-
-        }
-
-        $http.get('../fotos.json').then(onPhotosDownloaded, onError);
-
+        $('#home').addClass("active");
+        $('#gallery').removeClass("active");
 
     }]);
 
-izegemControllers.controller('HomepageCtrlazerty', ['$scope', '$routeParams', 'Phone',
-  //function ($scope, $routeParams, Phone) {
-  //    $scope.phone = Phone.get({ phoneId: $routeParams.phoneId }, function (phone) {
-  //        $scope.mainImageUrl = phone.images[0];
-  //    });
+izegemControllers.controller('GalleryCtrl', ['$scope', 'Locatie',
+    function ($scope, Locatie) {
+        $('#home').removeClass("active");
+        $('#gallery').addClass("active");
 
-  //    $scope.setImage = function (imageUrl) {
-  //        $scope.mainImageUrl = imageUrl;
-  //    }
-  //
+        $scope.locaties = Locatie.query();
+
+
+
+
+
+        //$scope.pictures = [];
+        //$scope.galleryactive = "active"
+
+        //var onPhotosDownloaded = function (response) {
+        //    angular.forEach(response.data.Fotos.fotos, function (value, key) {
+        //        var newFoto = new Foto(value.locatie, value.locatieid,value.bestandslocatie, value.descriptie);
+        //        $scope.pictures.push(newFoto);
+        //    });
+        //}
+
+        //var onError = function (response) {
+
+        //}
+        //$http.get('../fotos.json').then(onPhotosDownloaded, onError);
+    }]);
+
+
+izegemControllers.controller('GalleryDetailCtrl', ['$scope', '$http','$routeParams','Locatie',
+    function ($scope, $routeParams,Locatie) {
+        $scope.locatie = Locatie.get({ locatieId: $routeParams.locatieId }, function (locatie) {
+            $scope.mainImageUrl = locatie.fotos[0];
+        });
+
+        $scope.setImage = function (imageUrl) {
+            $scope.mainImageUrl = imageUrl;
+        }
+    }
 ]);

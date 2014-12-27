@@ -13,13 +13,20 @@
     margin:0;
 }
 .dropdown-menu{
-    font-size:20px;
+    font-size:22px;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #DDD;
   background-color: #afb500;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{}
+
+.navbar-brand {
+    position:relative;
+    top:-15px;
 }
 
 .carousel img{
@@ -30,7 +37,6 @@
     height:500px;
     max-width:100%;
     width:auto;
-    height:auto;
 }
 .btn-primary{
     background-color:#374b67;
@@ -42,7 +48,10 @@
     font-family:ChampagneLimousines;
 }
 .navbar-default .navbar-brand:hover{
-    color:#DDD;
+    color:#EEE;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    color:#EEE
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
@@ -92,6 +101,12 @@ body{
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  font-family:ChampagneLimousines;
+  font-size:20px;
+}
+
+.carousel-caption h1{
+    font-size:40px;
 }
 
 /* Declare heights because of positioning of img element */
@@ -132,11 +147,34 @@ body{
 
 .marketing .col-lg-4{
     text-align:center;
+    display:block;
+    min-height:313px;
 }
 
 .marketing .col-lg-4 h2{
     color:#afb500;
     font-family: ChampagneLimousines;
+} 
+
+@media (min-width:992px){
+    .marketing .col-lg-4{
+    text-align:center;
+    max-width:33%;
+    float:left;
+    position:relative;
+    }
+}
+.marketing{
+    margin-top:10px;
 }
 
-.marketing 
+.marketing h1{
+    color:#374b67;
+    font-family:ChampagneLimousines;
+    padding-bottom:10px;
+    font-size:36px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    color:#EEE;
+}
