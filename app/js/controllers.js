@@ -13,12 +13,26 @@ izegemControllers.controller('IzegemAppCtrl', ['$scope', 'Phone',
 
 izegemControllers.controller('HomepageCtrl', ['$scope',
     function ($scope) {
-    
+
 
     }]);
 
-izegemControllers.controller('GalleryCtrl', ['$scope',
-    function ($scope) {
+izegemControllers.controller('GalleryCtrl', ['$scope', '$http',
+    function ($scope, $http) {
+        $scope.pictures = [];
+
+        var onPhotosDownloaded = function (response) {
+            angular.forEach(response.data.Fotos.fotos, function (value, key) {
+                var newFoto = new Foto(value.locatie, value.bestandslocatie, value.descriptie);
+                $scope.pictures.push(newFoto);
+            });
+        }
+
+        var onError = function (response) {
+
+        }
+
+        $http.get('../fotos.json').then(onPhotosDownloaded, onError);
 
 
     }]);

@@ -1,0 +1,32 @@
+{
+    "Fotos": {
+        "fotos": [
+            {
+                "locatie": "Blauwhuis",
+                "bestandslocatie": "img/gallery/I0107.jpg",
+                "descriptie": "Kasteel Het Blauwhuis in Izegem is een parel van een neoclassicistisch kasteel uit 1880. Het Engels aandoend kasteelpark is 11 hectaren groot en omvat ondermeer een prachtige vijver, een theehuisje en een authentieke oranjerie. In dit statige kader waar vroeger baronnen en baronessen hun gasten ontvingen, worden nu huwelijken en jubilea gevierd."
+            },
+            {
+                "locatie": "Wallemote",
+                "bestandslocatie": "img/gallery/I0405.jpg",
+                "descriptie": "Het nu leegstaande Kasteel is een van de twee kastelen in het park van Wallemote-Wolvenhof. Het wordt nu gebruikt voor de sport- en cultuurmanifestaties."
+            },   
+            {
+                "locatie": "Station",
+                "bestandslocatie": "img/gallery/I0709.jpg",
+                "descriptie": "Het station van Izegem zoals je het hier ziet stamt uit 1847. Dit gebouw is ondertussen niet meer. Tegenwoordig is het vervangen door een gebouw dat stamt uit het interbellum, gebouwd in 1931."
+            },       
+            {
+                "locatie": "Korenmarkt",
+                "bestandslocatie": "img/gallery/I1011.jpg",
+                "descriptie": "De Korenmarkt met het stambeeld is een goed voorbeeld van hoeveel de aanleg van de centrumbrug het Izegems stadsbeeld heeft gewijzigd."
+            },         
+            {
+                "locatie": "Brugstraat",
+                "bestandslocatie": "img/gallery/I1712.jpg",
+                "descriptie": "De Brugstraat ziet er tegenwoordig heel anders uit, de brug die hier was is vervangen door de centrumbrug en de brug op deze foto werd afgesloten."
+            }
+        ]
+    }
+}
+
