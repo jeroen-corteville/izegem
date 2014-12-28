@@ -46,7 +46,7 @@ izegemControllers.controller('GalleryCtrl', ['$scope', 'Locatie',
     }]);
 
 
-izegemControllers.controller('GalleryDetailCtrl', ['$scope', '$http','$routeParams','Locatie',
+izegemControllers.controller('GalleryDetailCtrl', ['$scope','$routeParams','Locatie',
     function ($scope, $routeParams,Locatie) {
         $scope.locatie = Locatie.get({ locatieId: $routeParams.locatieId }, function (locatie) {
             $scope.mainImageUrl = locatie.fotos[0];
@@ -57,3 +57,14 @@ izegemControllers.controller('GalleryDetailCtrl', ['$scope', '$http','$routePara
         }
     }
 ]);
+
+//phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
+//  function ($scope, $routeParams, Phone) {
+//      $scope.phone = Phone.get({ phoneId: $routeParams.phoneId }, function (phone) {
+//          $scope.mainImageUrl = phone.images[0];
+//      });
+
+//      $scope.setImage = function (imageUrl) {
+//          $scope.mainImageUrl = imageUrl;
+//      }
+//  }]);
