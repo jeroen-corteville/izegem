@@ -49,7 +49,7 @@ izegemControllers.controller('GalleryCtrl', ['$scope', 'Locatie',
 izegemControllers.controller('GalleryDetailCtrl', ['$scope','$routeParams','Locatie',
     function ($scope, $routeParams,Locatie) {
         $scope.locatie = Locatie.get({ locatieId: $routeParams.locatieId }, function (locatie) {
-            $scope.mainImageUrl = locatie.fotos[0];
+            $scope.mainImageUrl = locatie.images[0];
         });
 
         $scope.setImage = function (imageUrl) {

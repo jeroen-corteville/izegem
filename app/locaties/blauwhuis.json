@@ -1,29 +1,12 @@
 ﻿{
-
-
     "Locatie": "Blauwhuis",
     "Descriptie": "Kasteel Het Blauwhuis in Izegem is een parel van een neoclassicistisch kasteel uit 1880. In dit statige kader waar vroeger baronnen en baronessen hun gasten ontvingen, worden nu huwelijken en jubilea gevierd.",
-        "fotos": [
-            {
-                "bestandlocatie": "img/gallery/I0107.jpg",
-                "fotodatum": ""
-            },
-            {
-                "bestandlocatie": "img/gallery/I0107.jpg",
-                "fotodatum": ""
-            },
-            {
-                "bestandlocatie": "img/gallery/I0107.jpg",
-                "fotodatum": ""
-            },
-            {
-                "bestandlocatie": "img/gallery/I0107.jpg",
-                "fotodatum": ""
-            },
-            {
-                "bestandlocatie": "img/gallery/I0107.jpg",
-                "fotodatum": ""
-            }
-        ]
-
+    "id": "blauwhuis",
+    "images": [
+        "img/gallery/I0107.jpg",
+        "img/gallery/blauwhuis/I0106.jpg",
+        "img/gallery/blauwhuis/I0101.jpg",
+        "img/gallery/blauwhuis/I0102.jpg",
+        "img/gallery/blauwhuis/I0201.jpg"
+    ]
 }

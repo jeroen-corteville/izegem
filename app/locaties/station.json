@@ -1,0 +1,17 @@
+﻿{
+
+
+    "Locatie": "Station",
+    "Descriptie": "Het oude station van Izegem zoals je het hier ziet stamt uit 1847. Dit gebouw is ondertussen niet meer. Tegenwoordig is het vervangen door een gebouw dat stamt uit het interbellum, gebouwd in 1931.",
+    "id": "station",
+    "images": [
+        "img/gallery/I0709.jpg",
+        "img/gallery/station/1.jpg",
+        "img/gallery/station/2.jpg",
+        "img/gallery/station/3.jpg",
+        "img/gallery/station/4.jpg",
+        "img/gallery/station/5.jpg",
+        "img/gallery/station/6.jpg"
+    ]
+
+}

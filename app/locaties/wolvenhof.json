@@ -1,0 +1,18 @@
+﻿{
+
+
+    "Locatie": "Wolvenhof",
+    "Descriptie": "Het tweede kasteel van het park Wallemote - Wolvenhof. Vlak bij dit kasteel is er ook een grote vijver.",
+    "id": "wolvenhof",
+    "images": [
+        "img/gallery/I0405.jpg",
+        "img/gallery/wolvenhof/1.jpg",
+        "img/gallery/wolvenhof/2.jpg",
+        "img/gallery/wolvenhof/3.jpg",
+        "img/gallery/wolvenhof/4.jpg",
+        "img/gallery/wolvenhof/5.jpg",
+        "img/gallery/wolvenhof/6.jpg",
+        "img/gallery/wolvenhof/7.jpg"
+    ]
+
+}

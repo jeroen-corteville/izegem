@@ -1,0 +1,13 @@
+﻿{
+    "Locatie": "Grote Markt",
+    "Descriptie": "De Grote Markt van Izegem is het belangrijkste plein. Iedere zaterdag wordt hier markt gehouden, en de talrijke kroegen zorgen voor een bruisend uitgaansleven.",
+    "id": "grotemarkt",
+    "images": [
+        "img/gallery/I1007.jpg",
+        "img/gallery/grotemarkt/1.jpg",
+        "img/gallery/grotemarkt/2.jpg",
+        "img/gallery/grotemarkt/3.jpg",
+        "img/gallery/grotemarkt/4.jpg",
+        "img/gallery/grotemarkt/5.jpg"
+    ]
+}

@@ -1,0 +1,12 @@
+﻿{
+    "Locatie": "Burgemeester Vandenbogaerdelaan",
+    "Descriptie": "De Burgemeester Vandenbogaerdelaan is de verbinding tussen de Rijksweg en het stadscentrum.",
+    "id": "burg-vandenbogaerdelaan",
+    "images": [
+        "img/gallery/II0909.jpg",
+        "img/gallery/burg-vandenbogaerdelaan/1.jpg",
+        "img/gallery/burg-vandenbogaerdelaan/2.jpg",
+        "img/gallery/burg-vandenbogaerdelaan/3.jpg",
+        "img/gallery/burg-vandenbogaerdelaan/4.jpg"
+    ]
+}

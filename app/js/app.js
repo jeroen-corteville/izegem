@@ -6,7 +6,8 @@ var izegemApp = angular.module('izegemApp', [
     'ngRoute',
 
     'izegemControllers',
-    'izegemServices'
+    'izegemServices',
+    'izegemAnimations'
 ]);
 
 izegemApp.config(['$routeProvider',

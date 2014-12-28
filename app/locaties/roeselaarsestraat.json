@@ -1,0 +1,13 @@
+﻿{
+    "Locatie": "Roeselaarsestraat",
+    "Descriptie": "De Roeselaarsestraat is de belangrijkste straat van Izegem, die start aan de Marktstraat en eindigt aan de grens met Roeselare.",
+    "id": "roeselaarsestraat",
+    "images": [
+        "img/gallery/II1110.jpg",
+        "img/gallery/roeselaarsestraat/1.jpg",
+        "img/gallery/roeselaarsestraat/2.jpg",
+        "img/gallery/roeselaarsestraat/3.jpg",
+        "img/gallery/roeselaarsestraat/4.jpg",
+        "img/gallery/roeselaarsestraat/5.jpg"
+    ]
+}
