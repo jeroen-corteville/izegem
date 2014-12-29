@@ -4,48 +4,29 @@
 
 var izegemControllers = angular.module('izegemControllers', []);
 
-izegemControllers.controller('IzegemAppCtrl', ['$scope', 'Phone',
-  //function ($scope, Phone) {
-  //    $scope.phones = Phone.query();
-  //    $scope.orderProp = 'age';
-  //}
-]);
+//izegemControllers.controller('IzegemAppCtrl', ['$scope', 'Phone',
+
+//]);
 
 izegemControllers.controller('HomepageCtrl', ['$scope',
     function ($scope) {
         $('#home').addClass("active");
         $('#gallery').removeClass("active");
+        $('#vroegerennu').removeClass("active");
+        $('#quiz').removeClass('active');
+        $('#about').removeClass('active');
 
     }]);
-
 izegemControllers.controller('GalleryCtrl', ['$scope', 'Locatie',
     function ($scope, Locatie) {
         $('#home').removeClass("active");
         $('#gallery').addClass("active");
+        $('#vroegerennu').removeClass("active");
+        $('#quiz').removeClass('active');
+        $('#about').removeClass('active');
 
         $scope.locaties = Locatie.query();
-
-
-
-
-
-        //$scope.pictures = [];
-        //$scope.galleryactive = "active"
-
-        //var onPhotosDownloaded = function (response) {
-        //    angular.forEach(response.data.Fotos.fotos, function (value, key) {
-        //        var newFoto = new Foto(value.locatie, value.locatieid,value.bestandslocatie, value.descriptie);
-        //        $scope.pictures.push(newFoto);
-        //    });
-        //}
-
-        //var onError = function (response) {
-
-        //}
-        //$http.get('../fotos.json').then(onPhotosDownloaded, onError);
     }]);
-
-
 izegemControllers.controller('GalleryDetailCtrl', ['$scope','$routeParams','Locatie',
     function ($scope, $routeParams,Locatie) {
         $scope.locatie = Locatie.get({ locatieId: $routeParams.locatieId }, function (locatie) {
@@ -57,14 +38,28 @@ izegemControllers.controller('GalleryDetailCtrl', ['$scope','$routeParams','Loca
         }
     }
 ]);
+izegemControllers.controller('VroegerNuCtrl', ['$scope',
+    function ($scope) {
+        $('#home').removeClass("active");
+        $('#gallery').removeClass("active");
+        $('#vroegerennu').addClass("active");
+        $('#quiz').removeClass('active');
+        $('#about').removeClass('active');
+    }]);
+izegemControllers.controller('QuizCtrl', ['$scope',
+    function ($scope) {
+        $('#home').removeClass("active");
+        $('#gallery').removeClass("active");
+        $('#vroegerennu').removeClass("active");
+        $('#quiz').addClass('active');
+        $('#about').removeClass('active');
+    }]);
 
-//phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
-//  function ($scope, $routeParams, Phone) {
-//      $scope.phone = Phone.get({ phoneId: $routeParams.phoneId }, function (phone) {
-//          $scope.mainImageUrl = phone.images[0];
-//      });
-
-//      $scope.setImage = function (imageUrl) {
-//          $scope.mainImageUrl = imageUrl;
-//      }
-//  }]);
+izegemControllers.controller('AboutCtrl', ['$scope',
+    function ($scope) {
+        $('#home').removeClass("active");
+        $('#gallery').removeClass("active");
+        $('#vroegerennu').removeClass("active");
+        $('#quiz').removeClass('active');
+        $('#about').addClass('active');
+    }]);

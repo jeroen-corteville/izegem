@@ -66,7 +66,6 @@
 
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus
 {
-	background-color:#374b67;
 	color:#EEE
 }
 
@@ -169,7 +168,7 @@ body
 .locaties .col-lg-4
 {
 	display:block;
-	min-height:313px;
+	min-height:350px;
 	text-align:center
 }
 
@@ -319,18 +318,48 @@ ul.img-thumbs img:hover
 	
 	.imggallery
 	{
-		height:240px;
+		height:213px;
 		margin:auto;
 		text-align:center;
 		width:320px
 	}
 }
 
-@media (min-width:992px) {
-	.marketing .col-lg-4
-	{
-		max-width:33%;
-		position:relative;
-		text-align:center
-	}
+@media (min-width:1200px) {
+    .imggallery{
+        height:240px;
+        width:360px;
+        margin:auto;
+        margin-top:20px;
+    }
+
+   .locaties .col-lg-4 p{
+        width:360px;
+    }
+    
+}
+
+h2{
+    font-family:ChampagneLimousines;
+    font-weight:bold;
+}
+
+.about .row {
+    height:200px;
+}
+
+#logoizegem {
+    background-image: url('../img/about/logo-izegem.jpg');
+    margin-top:60px;
+}
+
+#logotenmandere {
+    background-image: url('../img/about/logotenmandere.jpg');
+    margin-top: 15px;
+}
+
+#logotenmandere, #logoizegem{
+    height: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
