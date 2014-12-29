@@ -34,7 +34,7 @@
             }).
             when('/vroegerennu', {
                 templateUrl: 'partials/vroegernu.min.html',
-                title:"Vroeger en Nu",
+                title: "Vroeger en Nu",
                 controller: 'VroegerNuCtrl'
             }).
             when('/quiz', {

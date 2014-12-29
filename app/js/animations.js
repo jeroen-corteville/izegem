@@ -37,7 +37,7 @@ izegemAnimations.animation('.locatie', function () {
             top: -500
         }, done);
 
-        return function (cancel) {
+        return function (cancel){ 
             if (cancel) {
                 element.stop();
             }
@@ -48,4 +48,15 @@ izegemAnimations.animation('.locatie', function () {
         addClass: animateUp,
         removeClass: animateDown
     };
+});
+
+$(function () {
+    var navMain = $("#navbar-collapse");
+    navMain.on("click", "a", null, function () {
+        if (navMain.hasClass("in") && $(window).width() < 768) {
+            console.log('navbar is open')
+            setTimeout(function () { navMain.collapse('hide') }, 500);
+        }
+        return;
+    });
 });
