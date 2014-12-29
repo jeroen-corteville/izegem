@@ -5,8 +5,6 @@
 
 
 (function () {
-    var express = require('express');
-    var cache = require('cache-control');
 
     var izegemApp = angular.module('izegemApp', [
     'ngRoute',
