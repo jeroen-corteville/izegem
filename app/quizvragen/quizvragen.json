@@ -1,0 +1,17 @@
+﻿{
+    "Vragen": {
+        "vragen": [
+            {
+                "Vraag": "Waar is volgende foto genomen?",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            }
+        ]
+    }
+}

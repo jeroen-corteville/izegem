@@ -1,3 +1,21 @@
 ﻿<div class="container">
     <h1>Quiz</h1>
+    <div id="quizapp">
+        <p>Welkom bij de quiz</p>
+        <div ng-repeat="Vraag in vragen">
+            <div class="col-md-3"><img id="fotovraag" ng-src="{{Vraag.Foto}}" /></div>
+            <div class="col-md-9">
+                <div class="vraag">{{Vraag.Vraag}}</div>
+                <div class="antwoorden">
+                    <div class="antwoord correct">
+                        {{Vraag.CorrectAntwoord}}
+                    </div>
+                    <div class="antwoord" ng-repeat="FoutAntwoord in Vraag.fouteantwoorden">
+                        {{FoutAntwoord}}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
