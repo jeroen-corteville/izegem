@@ -1,0 +1,78 @@
+[33mcommit 7029f5e388d3ba20c1f781ebb0f03e7b9d566fe4[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Mon Dec 29 16:34:58 2014 +0100
+
+    new commit
+
+[33mcommit 5fc13c0ea658c16b5c2155534afb08b48b0d9bfb[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Mon Dec 29 16:17:08 2014 +0100
+
+    New npm modules
+
+[33mcommit 0a8d8c204f969ff886a2632eae371dc881ebda7d[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Mon Dec 29 16:08:47 2014 +0100
+
+    Pagerank optimalization
+
+[33mcommit efd1d50e352c32790a9346811bc096eca2a1f0ae[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Sun Dec 28 20:08:08 2014 +0100
+
+    Gallerij afgewerkt met foto's en tekst,
+
+[33mcommit a2c166177fea450be8fc19a342f0303e04ea8632[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Sun Dec 28 13:21:45 2014 +0100
+
+    changes to controller so it actually works this time
+
+[33mcommit b7145aed2ead8b0fe794722c1ff785eca6355c4c[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Sat Dec 27 18:30:50 2014 +0100
+
+    commit
+
+[33mcommit 7a86b6862f950bad49e3be064d19cd7b12adcb77[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Sat Dec 27 18:30:06 2014 +0100
+
+    A lot of work done, a lot of work to do!
+
+[33mcommit 5a63507cc7afd3141eafdc465b206caebbc2c8f3[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Sat Dec 27 12:02:50 2014 +0100
+
+    small markup changes
+
+[33mcommit 7ea24f7a6b32908a6f95fdad166a11f4426005b1[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Sat Dec 27 11:50:46 2014 +0100
+
+    Added first places to the gallery page.
+
+[33mcommit 30ce6fceb559fc7bfa75dd19ee5578251953a61d[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Fri Dec 26 21:02:51 2014 +0100
+
+    removed carousel controls
+
+[33mcommit 8a5cee069bd47fb911b62bb7cbc3db74320d3787[m
+Merge: f51b0ad 154f058
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Fri Dec 26 20:40:10 2014 +0100
+
+    Merge branch 'master' of https://github.com/jeroen-corteville/izegem
+
+[33mcommit f51b0ad6387d660ef96a254a685c0111a608cd48[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Fri Dec 26 20:22:00 2014 +0100
+
+    [first commit]
+
+[33mcommit 154f058055f1c8731283436e8e552ac81593ca19[m
+Author: jeroen-corteville <jeroencorteville@gmail.com>
+Date:   Fri Dec 26 20:16:29 2014 +0100
+
+    Initial commit
