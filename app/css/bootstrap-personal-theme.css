@@ -441,3 +441,41 @@ h2{
         color:white;
     }
 }
+
+.cd-resize-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    /* Force Hardware Acceleration in WebKit */
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.is-visible .cd-resize-img {
+    width: 50%;
+    /* bounce in animation of the modified image */
+    -moz-animation: cd-bounce-in 0.7s;
+    -o-animation: cd-bounce-in 0.7s;
+    -webkit-animation: cd-bounce-in 0.7s;
+    animation: cd-bounce-in 0.7s;
+}
+@keyframes cd-bounce-in {
+  0% {
+    width: 0;
+  }
+  60% {
+    width: 55%;
+  }
+  100% {
+    width: 50%;
+  }
+}

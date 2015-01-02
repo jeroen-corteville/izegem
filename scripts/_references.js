@@ -123,3 +123,4 @@
 /// <reference path="../test/unit/servicesSpec.js" />
 /// <reference path="../app/js/animations.js" />
 /// <reference path="../app/js/objects/Vraag.js" />
+/// <reference path="../app/js/cd-image.js" />
