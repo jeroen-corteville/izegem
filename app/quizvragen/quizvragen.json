@@ -11,6 +11,160 @@
                     "antwoord3",
                     "antwoord4"
                 ]
+            },
+            {
+                "Vraag": "Vraag2?",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag3",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag4",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag5",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag6",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag7",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag8",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag9",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag10",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag11",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag12",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag13",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag14",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
+            },
+            {
+                "Vraag": "Vraag15",
+                "Foto": "img/quiz/vraag1.jpg",
+                "CorrectAntwoord": "antwoord5",
+                "FouteAntwoorden": [
+                    "antwoord1",
+                    "antwoord2",
+                    "antwoord3",
+                    "antwoord4"
+                ]
             }
         ]
     }

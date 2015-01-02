@@ -3,8 +3,8 @@
     <div id="quizapp">
         <p>Welkom bij de quiz</p>
         <div ng-repeat="Vraag in vragen">
-            <div class="col-md-3"><img id="fotovraag" ng-src="{{Vraag.Foto}}" /></div>
-            <div class="col-md-9">
+            <div class="col-lg-3 col-md-4 col-sm-5"><img id="fotovraag" ng-src="{{Vraag.Foto}}" /></div>
+            <div class="col-lg-9 col-md-8 col-sm-7">
                 <div class="vraag">{{Vraag.Vraag}}</div>
                 <div class="antwoorden">
                     <div class="antwoord correct">
@@ -12,10 +12,10 @@
                     </div>
                     <div class="antwoord" ng-repeat="FoutAntwoord in Vraag.fouteantwoorden">
                         {{FoutAntwoord}}
-
                     </div>
                 </div>
             </div>
+            <div id="score">{{score}} / {{aantalVragen}}</div>
         </div>
     </div>
 </div>

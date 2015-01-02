@@ -363,11 +363,29 @@ h2{
 }
 
 #fotovraag{
-    height:200px;
-    width:200px;
+    height:266px;
+    width:auto;
+    border-radius:5px;
 }
 
 .vraag{
     font: bold 24px 'Poiret One';
     padding-bottom:16px;
+}
+
+.antwoord{
+    display:block;
+    min-width:240px;
+    min-height:40px;
+    line-height:40px;
+    border: 1px solid #969c00;
+    margin:2px 0;
+    padding: 0 0 0 10px;
+    border-radius:5px;
+    font-weight:bold;
+}
+.antwoord:hover{
+    background-color:#374b67;
+    border-color:#374b67;
+    color:white;
 }
