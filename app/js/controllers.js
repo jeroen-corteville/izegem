@@ -90,24 +90,24 @@ izegemControllers.controller('QuizCtrl', ['$scope','$http',
         var AddClickEventsAntwoorden = function () {
             $('.antwoord').click(function () {
                 if ($(this).hasClass('correct')) {
-                    $(this).css({
-                        'background-color': 'green',
-                        'color': 'white'
-                    });
+                    $(this).addClass('correctAntwoord');
                     $('.antwoord').unbind('click');
                     $scope.score = $scope.score + 1
                 }
                 else {
-                    $(this).css({
-                        'background-color': 'red',
-                        'color': 'white'
-                    });
+                    $(this).addClass('foutAntwoord');
                     $('.antwoord').unbind('click');
                     ToonJuistAntwoord();
                 }
                 $scope.aantalVragen = $scope.aantalVragen + 1;
                 $scope.$apply();
-                setTimeout(volgendeVraag, 500);
+                $('#volgende').click(function () {
+                    $('.antwoord').removeClass('foutAntwoord correctAntwoord')
+                    volgendeVraag();
+                });
+
+                //Dit is niet meer nodig, nu wordt er met knoppen gewerkt
+                //setTimeout(volgendeVraag, 500);
             });
             
         }
@@ -122,7 +122,8 @@ izegemControllers.controller('QuizCtrl', ['$scope','$http',
                 $scope.vragen.splice($scope.vragen.indexOf(newVraag),1);
                 $scope.vragen.push(newVraag);
                 selecAntwoorden.splice(0, 1);
-                
+                $scope.$apply();
+                console.log(selecAntwoorden)
                 setTimeout(AddClickEventsAntwoorden, 5);
                 setTimeout(RandomizeAntwoorden,10);
             }
@@ -130,7 +131,7 @@ izegemControllers.controller('QuizCtrl', ['$scope','$http',
 
         var ToonJuistAntwoord = function () {
             console.log('nu moet het juiste antwoord verschijnen');
-            $('.correct').css({ 'background-color': 'green' });
+            $('.correct').addClass('correctAntwoord');
         }
         
         //var antwoorden = document.querySelector('.antwoorden');

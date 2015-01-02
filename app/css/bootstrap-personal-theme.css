@@ -384,8 +384,60 @@ h2{
     border-radius:5px;
     font-weight:bold;
 }
-.antwoord:hover{
-    background-color:#374b67;
-    border-color:#374b67;
+    .antwoord:hover {
+        background-color: #374b67;
+        border-color: #374b67;
+        color: white;
+        opacity:0.8;
+    }
+
+.foutAntwoord{
+    background-color:red;
     color:white;
+}
+
+
+.foutAntwoord:hover{
+    background-color:red;
+}
+.correctAntwoord {
+    background-color: green;
+    color: white;
+    -moz-animation: toonjuistantwoordanim 1s ease-in;
+    -o-animation: toonjuistantwoordanim 1s ease-in;
+    -webkit-animation: toonjuistantwoordanim 1s ease-in;
+    animation: toonjuistantwoordanim 1s ease-in;
+}
+
+@-webkit-keyframes toonjuistantwoordanim {
+    from {
+        background-color:white;
+        color:black;
+    }
+    to {
+        background-color:green;
+        color:white;
+    }
+}
+
+@-moz-keyframes toonjuistantwoordanim{
+    from {
+        background-color:white;
+        color:black;
+    }
+    to {
+        background-color:green;
+        color:white;
+    }
+}
+
+@keyframes toonjuistantwoordanim{
+    from {
+        background-color:white;
+        color:black;
+    }
+    to {
+        background-color:green;
+        color:white;
+    }
 }
