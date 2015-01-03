@@ -45,6 +45,11 @@ izegemControllers.controller('VroegernuDetailCtrl', ['$scope', '$routeParams', '
             $scope.imageOud = vroegernu.imageOud;
             $scope.imageNieuw = vroegernu.imageNieuw;
         })
+        initSlider($);
+        $scope.$watch('$viewcontentloaded', function () {
+            
+            $('.cd-image-container').addClass('is-visible');
+        });
     }
 ]);
 izegemControllers.controller('VroegerNuCtrl', ['$scope','VroegerNu',
@@ -134,10 +139,17 @@ izegemControllers.controller('QuizCtrl', ['$scope','$http',
                 $scope.vragen.push(newVraag);
                 selecAntwoorden.splice(0, 1);
 
+
+
                 setTimeout(function () { $scope.$apply(); },5);
-                console.log(selecAntwoorden)
-                setTimeout(AddClickEventsAntwoorden, 5);
-                setTimeout(RandomizeAntwoorden,10);
+                console.log(selecAntwoorden);
+
+                $scope.$watch('$viewcontentloaded', function () {
+                    
+                    setTimeout(AddClickEventsAntwoorden, 1);
+                    setTimeout(RandomizeAntwoorden, 2);
+                });
+                
             }
         }
 

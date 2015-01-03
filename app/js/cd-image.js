@@ -1,4 +1,5 @@
-﻿jQuery(document).ready(function ($) {
+﻿var initSlider = function ($) {
+    console.log('initSlider');
     //check if the .cd-image-container is in the viewport 
     //if yes, animate it
     checkPosition($('.cd-image-container'));
@@ -20,7 +21,7 @@
             updateLabel(actual.find('.cd-image-label[data-type="original"]'), actual.find('.cd-resize-img'), 'right');
         });
     });
-});
+}
 
 function checkPosition(container) {
     container.each(function () {
