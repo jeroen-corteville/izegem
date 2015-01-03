@@ -1,0 +1,14 @@
+﻿[
+    {
+        "locatie": "Wallemote",
+        "id": "wallemote",
+        "bestandslocatie": "img/vroegernu/1A.jpg",
+        "descriptie": "Het nu leegstaande Kasteel is een van de twee kastelen in het park van Wallemote-Wolvenhof. Het wordt nu gebruikt voor de sport- en cultuurmanifestaties."
+    },
+    {
+        "locatie": "B.Vandenbogaerdelaan",
+        "id": "burg-vandenbogaerdelaan",
+        "bestandslocatie": "img/vroegernu/2A.jpg",
+        "descriptie": "De Burgemeester Vandenbogaerdelaan is de verbinding tussen de Rijksweg en het stadscentrum."
+    }
+]

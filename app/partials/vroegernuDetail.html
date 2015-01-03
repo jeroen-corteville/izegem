@@ -1,0 +1,21 @@
+﻿<div class="container locaties">
+    <h1>{{vroegernu.locatie}}</h1>
+    <p>Gebruik de slider om te zien hoe de plaatsen veranderd zijn door de jaren heen.</p>
+    <a href="#/vroegerennu/"><span class="glyphicon glyphicon-arrow-left"></span> Terug naar locaties</a>
+    <hr />
+    <div class="row">
+        <figure class="cd-image-container">
+            <img ng-src="{{imageNieuw}}" alt="Original Image">
+            <span class="cd-image-label" data-type="original">Nu</span>
+
+            <div class="cd-resize-img">
+                <!-- the resizable image on top -->
+                <img ng-src="{{imageOud}}" alt="Modified Image">
+                <span class="cd-image-label" data-type="modified">Vroeger</span>
+            </div>
+
+            <span class="cd-handle"></span>
+        </figure> <!-- cd-image-container -->
+        <script src="js/cd-image.js"></script>
+    </div>
+</div>

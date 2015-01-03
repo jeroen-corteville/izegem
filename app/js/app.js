@@ -24,7 +24,7 @@
             }).
             when('/gallery', {
                 templateUrl: 'partials/gallery.min.html',
-                title: "Gallerij",
+                title: "Galerij",
                 controller: 'GalleryCtrl'
             }).
             when('/locaties/:locatieId', {
@@ -36,6 +36,11 @@
                 templateUrl: 'partials/vroegernu.min.html',
                 title: "Vroeger en Nu",
                 controller: 'VroegerNuCtrl'
+            }).
+            when('/vroegernu/:vroegernuId', {
+                templateUrl: 'partials/vroegernuDetail.html',
+                title: "Vroegernudetail",
+                controller: 'VroegernuDetailCtrl'
             }).
             when('/quiz', {
                 templateUrl: 'partials/quiz.min.html',

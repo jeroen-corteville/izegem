@@ -38,13 +38,24 @@ izegemControllers.controller('GalleryDetailCtrl', ['$scope','$routeParams','Loca
         }
     }
 ]);
-izegemControllers.controller('VroegerNuCtrl', ['$scope',
-    function ($scope) {
+
+izegemControllers.controller('VroegernuDetailCtrl', ['$scope', '$routeParams', 'VroegerNu',
+    function ($scope, $routeParams, VroegerNu) {
+        $scope.vroegernu = VroegerNu.get({ vroegernuId: $routeParams.vroegernuId }, function (vroegernu) {
+            $scope.imageOud = vroegernu.imageOud;
+            $scope.imageNieuw = vroegernu.imageNieuw;
+        })
+    }
+]);
+izegemControllers.controller('VroegerNuCtrl', ['$scope','VroegerNu',
+    function ($scope,VroegerNu) {
         $('#home').removeClass("active");
         $('#gallery').removeClass("active");
         $('#vroegerennu').addClass("active");
         $('#quiz').removeClass('active');
         $('#about').removeClass('active');
+
+        $scope.vroegernu = VroegerNu.query();
     }]);
 izegemControllers.controller('QuizCtrl', ['$scope','$http',
     function ($scope,$http) {
@@ -122,7 +133,8 @@ izegemControllers.controller('QuizCtrl', ['$scope','$http',
                 $scope.vragen.splice($scope.vragen.indexOf(newVraag),1);
                 $scope.vragen.push(newVraag);
                 selecAntwoorden.splice(0, 1);
-                $scope.$apply();
+
+                setTimeout(function () { $scope.$apply(); },5);
                 console.log(selecAntwoorden)
                 setTimeout(AddClickEventsAntwoorden, 5);
                 setTimeout(RandomizeAntwoorden,10);

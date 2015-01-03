@@ -10,6 +10,10 @@ izegemServices.factory('Locatie', ['$resource',
         });
     }]);
 
-'use strict';
-
-/* Services */
+izegemServices.factory('VroegerNu', ['$resource',
+    function ($resource) {
+        return $resource('vroegernu/:vroegernuId.json', {}, {
+            query: {method: 'GET',params:{vroegernuId: 'vroegernu'}, isArray: true}
+        });
+    }
+]);
