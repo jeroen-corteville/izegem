@@ -124,3 +124,5 @@
 /// <reference path="../app/js/animations.js" />
 /// <reference path="../app/js/objects/Vraag.js" />
 /// <reference path="../app/js/cd-image.js" />
+/// <reference path="../app/js/jquery.mobile.custom.min.js" />
+/// <reference path="../app/js/modernizr.js" />
