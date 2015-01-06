@@ -13,7 +13,7 @@
                 ]
             },
             {
-                "Vraag": "Vraag2?",
+                "Vraag": "Waar is volgende foto genomen?",
                 "Foto": "img/quiz/vraag1.jpg",
                 "CorrectAntwoord": "antwoord5",
                 "FouteAntwoorden": [
@@ -24,7 +24,7 @@
                 ]
             },
             {
-                "Vraag": "Vraag3",
+                "Vraag": "Waar is volgende foto genomen?",
                 "Foto": "img/quiz/vraag1.jpg",
                 "CorrectAntwoord": "antwoord5",
                 "FouteAntwoorden": [
@@ -35,47 +35,47 @@
                 ]
             },
             {
-                "Vraag": "Vraag4",
+                "Vraag": "Welke van deze gemeenten grenst niet aan Izegem?",
                 "Foto": "img/quiz/vraag1.jpg",
-                "CorrectAntwoord": "antwoord5",
+                "CorrectAntwoord": "Oostrozebeke",
                 "FouteAntwoorden": [
-                    "antwoord1",
-                    "antwoord2",
-                    "antwoord3",
-                    "antwoord4"
+                    "Meulebeke",
+                    "Ledegem",
+                    "Lendelede",
+                    "Ingelmunster"
                 ]
             },
             {
-                "Vraag": "Vraag5",
+                "Vraag": "Wie van volgende personen was nooit burgemeester van Izegem?",
                 "Foto": "img/quiz/vraag1.jpg",
-                "CorrectAntwoord": "antwoord5",
+                "CorrectAntwoord": "Geert Bourgeois",
                 "FouteAntwoorden": [
-                    "antwoord1",
-                    "antwoord2",
-                    "antwoord3",
-                    "antwoord4"
+                    "Gerda Mylle",
+                    "Gustaaf Nyffels",
+                    "Willy Verledens",
+                    "Robert Vanlerberghe"
                 ]
             },
             {
-                "Vraag": "Vraag6",
+                "Vraag": "Wie van de volgende personen is niet geboren in Izegem?",
                 "Foto": "img/quiz/vraag1.jpg",
-                "CorrectAntwoord": "antwoord5",
+                "CorrectAntwoord": "Patrick Sercu (Wielrenner)",
                 "FouteAntwoorden": [
-                    "antwoord1",
-                    "antwoord2",
-                    "antwoord3",
-                    "antwoord4"
+                    "Johan Bruyneel (Ploegleider Wielrennen)",
+                    "Veerle Dejaeghere (Atlete)",
+                    "Flip Kowlier (Singer-songwriter)",
+                    "Ulla Werbrouck (Judoka)"
                 ]
             },
             {
-                "Vraag": "Vraag7",
+                "Vraag": "In welke voetbalklasse speelt KFC Izegem?",
                 "Foto": "img/quiz/vraag1.jpg",
-                "CorrectAntwoord": "antwoord5",
+                "CorrectAntwoord": "3e Klasse A",
                 "FouteAntwoorden": [
-                    "antwoord1",
-                    "antwoord2",
-                    "antwoord3",
-                    "antwoord4"
+                    "3e Klasse B",
+                    "4e Klasse A",
+                    "4e Klasse B",
+                    "4e Klasse C"
                 ]
             },
             {

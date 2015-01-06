@@ -411,10 +411,10 @@ h2{
 .correctAntwoord {
     background-color: green;
     color: white;
-    -moz-animation: toonjuistantwoordanim 1s ease-in;
-    -o-animation: toonjuistantwoordanim 1s ease-in;
-    -webkit-animation: toonjuistantwoordanim 1s ease-in;
-    animation: toonjuistantwoordanim 1s ease-in;
+    -moz-animation: toonjuistantwoordanim 0.5s ease-in;
+    -o-animation: toonjuistantwoordanim 0.5s ease-in;
+    -webkit-animation: toonjuistantwoordanim 0.5s ease-in;
+    animation: toonjuistantwoordanim 0.5s ease-in;
 }
 
 @-webkit-keyframes toonjuistantwoordanim {
