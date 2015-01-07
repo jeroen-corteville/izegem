@@ -595,3 +595,8 @@ h2{
   -moz-transition: -moz-transform 0.3s 0.7s, opacity 0s 0.7s;
   transition: transform 0.3s 0.7s, opacity 0s 0.7s;
 }
+
+.izegemfeature{
+    border:solid #969c00 1px;
+    padding:0 10px;
+}

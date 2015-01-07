@@ -4,12 +4,12 @@
             {
                 "Vraag": "Waar is volgende foto genomen?",
                 "Foto": "img/quiz/vraag1.jpg",
-                "CorrectAntwoord": "antwoord5",
+                "CorrectAntwoord": "Burgemeester Vandenbogaerdelaan",
                 "FouteAntwoorden": [
-                    "antwoord1",
-                    "antwoord2",
-                    "antwoord3",
-                    "antwoord4"
+                    "Roeselaarsestraat",
+                    "Ommegangstraat",
+                    "Schoolstraat",
+                    "Nieuwstraat"
                 ]
             },
             {

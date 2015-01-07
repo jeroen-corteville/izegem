@@ -75,7 +75,7 @@ izegemControllers.controller('QuizCtrl', ['$scope','$http',
 
         $scope.vragen = [];
 
-        var selecAntwoorden = [];
+        var selecAntwoorden = [1];
         var AlleAntwoorden = []
 
         var onVragenDownloaded = function (response) {
