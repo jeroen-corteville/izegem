@@ -1,5 +1,7 @@
 ﻿{
     "locatie": "Burgemeester Vandenbogaerdelaan",
     "imageOud": "img/vroegernu/2B.jpg",
-    "imageNieuw": "img/vroegernu/2A.jpg"
+    "imageNieuw": "img/vroegernu/2A.jpg",
+    "coordinaatlat": "50.9094488",
+    "coordinaatlong": "3.2087534"
 }

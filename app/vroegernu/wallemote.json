@@ -1,5 +1,7 @@
 ﻿{
     "locatie": "Wallemote",
     "imageOud": "img/vroegernu/1B.jpg",
-    "imageNieuw": "img/vroegernu/1A.jpg"
+    "imageNieuw": "img/vroegernu/1A.jpg",
+    "coordinaatlat": "50.9080253",    
+    "coordinaatlong": "3.1889364"
 }

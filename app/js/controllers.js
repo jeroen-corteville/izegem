@@ -41,15 +41,39 @@ izegemControllers.controller('GalleryDetailCtrl', ['$scope','$routeParams','Loca
 
 izegemControllers.controller('VroegernuDetailCtrl', ['$scope', '$routeParams', 'VroegerNu',
     function ($scope, $routeParams, VroegerNu) {
+        var lat;
+        var long;
+
         $scope.vroegernu = VroegerNu.get({ vroegernuId: $routeParams.vroegernuId }, function (vroegernu) {
             $scope.imageOud = vroegernu.imageOud;
             $scope.imageNieuw = vroegernu.imageNieuw;
+            lat = vroegernu.coordinaatlat;
+            long = vroegernu.coordinaatlong;
+
+            var mapOptions = {
+                zoom:14,
+                center: new google.maps.LatLng(lat, long)
+            };
+            var myLatlng = new google.maps.LatLng(lat, long);
+
+            
+
+            var map = new google.maps.Map(document.getElementById('map-canvas'),
+                mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: 'Hello World!'
+            });
         })
         initSlider($);
         $scope.$watch('$viewcontentloaded', function () {
             
             $('.cd-image-container').addClass('is-visible');
         });
+
+        
     }
 ]);
 izegemControllers.controller('VroegerNuCtrl', ['$scope','VroegerNu',
